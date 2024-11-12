@@ -5,7 +5,6 @@ import 'package:proc/controllers/exports.dart';
 import 'package:proc/views/ui/mainscreen.dart';
 import 'package:proc/views/ui/onboarding/onboarding_screen.dart';
 import 'package:provider/provider.dart';
-
 import 'views/common/exports.dart';
 
 void main() async {
