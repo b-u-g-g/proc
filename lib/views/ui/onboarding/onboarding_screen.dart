@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:jobhub/views/common/exports.dart';
-
+import 'package:proc/views/common/exports.dart';
 
 class OnBoardingScreen extends StatelessWidget {
   const OnBoardingScreen({super.key});
@@ -9,7 +8,10 @@ class OnBoardingScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: ReusableText(text: "OnBoardingScreen", style: appstyle(30, Color(kDark.value), FontWeight.bold),),
+        child: ReusableText(
+          text: "OnBoardingScreen",
+          style: appstyle(30, Color(kDark.value), FontWeight.bold),
+        ),
       ),
     );
   }

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:jobhub/views/common/vertical_shimmer.dart';
-
+import 'package:proc/views/common/vertical_shimmer.dart';
 
 class SearchShimmer extends StatelessWidget {
   const SearchShimmer({
@@ -16,8 +15,8 @@ class SearchShimmer extends StatelessWidget {
         itemCount: 3,
         itemBuilder: (_, index) {
           return const Padding(
-            padding:  EdgeInsets.all(12),
-            child:  VerticalShimmer(),
+            padding: EdgeInsets.all(12),
+            child: VerticalShimmer(),
           );
         });
   }

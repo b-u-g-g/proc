@@ -1,8 +1,7 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:jobhub/views/common/exports.dart';
+import 'package:proc/views/common/exports.dart';
 
 class VerticalShimmer extends StatelessWidget {
   const VerticalShimmer({
@@ -23,11 +22,10 @@ class VerticalShimmer extends StatelessWidget {
             ]),
       ],
       child: Container(
-       padding: EdgeInsets.symmetric(horizontal: 20.w, vertical: 10.h),
+        padding: EdgeInsets.symmetric(horizontal: 20.w, vertical: 10.h),
         height: hieght * 0.15,
         width: width,
         color: Color(kLightGrey.value),
-        
       ),
     );
   }

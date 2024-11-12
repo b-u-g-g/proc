@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:jobhub/views/common/exports.dart';
+import 'package:proc/views/common/exports.dart';
 
 class CustomField extends StatelessWidget {
   const CustomField({
@@ -9,7 +9,8 @@ class CustomField extends StatelessWidget {
     this.validator,
     this.keyboard,
     this.suffixIcon,
-    this.obscureText, this.onEditingComplete,
+    this.obscureText,
+    this.onEditingComplete,
   }) : super(key: key);
 
   final TextEditingController controller;

@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:image_cropper/image_cropper.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:jobhub/constants/app_constants.dart';
-
+import 'package:proc/constants/app_constants.dart';
 
 class ImageUpoader extends ChangeNotifier {
   final ImagePicker _picker = ImagePicker();
@@ -33,7 +32,7 @@ class ImageUpoader extends ChangeNotifier {
       maxWidth: 1080,
       maxHeight: 1920,
       compressQuality: 80,
-      aspectRatioPresets: [CropAspectRatioPreset.ratio4x3],
+      //aspectRatioPresets: [CropAspectRatioPreset.ratio4x3],
       uiSettings: [
         AndroidUiSettings(
             toolbarTitle: 'Jobhub Cropper',
